@@ -39,9 +39,10 @@ syntax:
   - id: footnotes
     available: y
   - id: heading-ids
-    available: p
+    available: y
   - id: definition-lists
-    available: n
+    available: p
+    notes: "No editor highlighting. Handled by pandoc on export."
   - id: strikethrough
     available: y
   - id: task-lists
@@ -49,19 +50,21 @@ syntax:
   - id: emoji-cp
     available: y
   - id: emoji-sc
-    available: n
+    available: y
   - id: highlight
-    available: n
+    available: y
+    notes: "==text== or ::text:: syntax. Also [text]{.mark} via Pandoc span."
   - id: subscript
-    available: n
+    available: y
   - id: superscript
-    available: n
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
     available: n
   - id: html
-    available: u
+    available: y
+    notes: "HTML blocks and inline HTML supported. Handled by Pandoc on export."
 ---
 
 [Zettlr](https://www.zettlr.com/) is free and open source Markdown application designed for academic writing. It provides a lot of powerful tools to help you write academic texts right out of the box.
@@ -70,6 +73,6 @@ The application's stated goal is simple: "Enabling researchers of arts and human
 
 {% include image.html file="/assets/images/tools/zettlr_view.png" alt="Zettlr editor interface" %}
 
-See the [Zettlr Documentation](https://docs.zettlr.com/en/) for the official documentation. Zettlr itself implements a mixture of different dialects. The editor itself highlights only GitHub Flavored Markdown plus some extra elements which extends Markdown syntax with Zettelkasten elements. You can also add LaTeX-commands.
+See the [Zettlr Documentation](https://docs.zettlr.com/en/) for the official documentation. Zettlr uses [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) as its dialect. Beyond syntax highlighting for CommonMark, GFM, and Pandoc extensions, Zettlr adds first-class support for Zettelkasten links and tags, citations with reference manager integration, footnotes, LaTeX math, and Mermaid diagrams. Excelling at academic workflows: project-based export to PDF, Word, HTML and others via Pandoc; custom templates for journals and conferences; a graph view for visualizing note connections. Additional features include multi-cursor editing, Emacs and Vim modes, snippets, spell and grammar checking (including LanguageTool), as well as a built-in Pomodoro timer.
 
 {% include tool-syntax-table.html %}

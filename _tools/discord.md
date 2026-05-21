@@ -21,7 +21,7 @@ syntax:
     available: y
     notes: "You can use `>>>` to create a multi-line blockquote. All text from the `>>>` to the end of the message will be included in the quote."
   - id: ordered-lists
-    available: n
+    available: y
   - id: unordered-lists
     available: y
   - id: code
@@ -71,7 +71,7 @@ see-also:
 
 [Discord](https://discord.com/) is one of the most popular messaging and collaboration applications available. Popular among gamers and teenagers, Discord provides a snappy and well-designed interface that works well for communicating with friends. Similar to [Slack](/tools/slack/), Discord provides limited Markdown support which is comparable to other applications in this category.
 
-{% include image.html file="/assets/images/tools/Discord.png" alt="Example of Discord Markdown" %}
+{% include image.html file="/assets/images/tools/discord.png" alt="Example of Discord Markdown" %}
 
 {% include tool-syntax-table.html %}
 
@@ -97,6 +97,11 @@ As an added bonus, Discord provides support for several obscure elements.
       <td>Underline</td>
       <td><code>__This text will be underlined.__</code></td>
       <td><ins>This text will be underlined.</ins></td>
+    </tr>
+    <tr>
+      <td>Subtext</td>
+      <td><code>-# This line will be made smaller and greyed out.</code></td>
+      <td><small style="opacity: 0.6;">This line will be made smaller and greyed out.</small></td>
     </tr>
   </tbody>
 </table>

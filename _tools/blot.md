@@ -1,9 +1,9 @@
 ---
-title: Boostnote
-category: "notes"
-description: "Boostnote is a Markdown note taking application for developers."
-icon: boostnote.png
-website: https://boostnote.io
+title: Blot
+category: "websites"
+description: "Blot is an open source CMS which turns a folder into a website."
+icon: blot.png
+website: https://blot.im/
 syntax:
   - id: headings
     available: y
@@ -36,11 +36,11 @@ syntax:
   - id: syntax-highlighting
     available: y
   - id: footnotes
-    available: n
+    available: y
   - id: heading-ids
-    available: n
+    available: y
   - id: definition-lists
-    available: n
+    available: y
   - id: strikethrough
     available: y
   - id: task-lists
@@ -50,24 +50,22 @@ syntax:
   - id: emoji-sc
     available: n
   - id: highlight
-    available: n
+    available: y
   - id: subscript
-    available: n
+    available: y
   - id: superscript
-    available: n
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
     available: y
   - id: html
     available: y
-see-also:
-  - name: Boostnote Markdown cheatsheet
-    link: https://github.com/TobseF/boostnote-markdown-cheatsheet
 ---
+[Blot](https://blot.im) is a simple content management system (CMS) that transforms a folder on your computer into a fully functional website. It supports automatic publishing for various file types, including [Markdown files](https://blot.im/how/files/markdown).
 
-[Boostnote](https://boostnote.io) bills itself as a note taking application for developers, but anyone in need of a Markdown application for notes would be happy with this application. Markdown support is excellent. The application's interface is polished and intuitive, and open source clients are available for macOS, Windows, and Linux operating systems. Boostnote allows you create folders, tag notes, and export Markdown files to HTML and PDF file format.
+Any Markdown file you place in the synced folder instantly becomes a post on your website. You can also embed images in Markdown files, whether they’re hosted online or stored locally in the same folder.
 
-{% include image.html file="/assets/images/tools/boostnote.png" alt="Boostnote Markdown application" width="90" %}
+Blot offers robust Markdown support, leveraging Pandoc for parsing and rendering, along with additional extensions to enhance functionality.
 
 {% include tool-syntax-table.html %}

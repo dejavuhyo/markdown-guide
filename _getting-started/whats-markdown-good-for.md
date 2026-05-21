@@ -15,7 +15,7 @@ If you're looking for the simplest possible way to create a website with Markdow
 If you're familiar with HTML, CSS, and version control, check out [Jekyll](/tools/jekyll/), a popular static site generator that takes Markdown files and builds an HTML website. One advantage to this approach is that [GitHub Pages](/tools/github-pages/) provides free hosting for Jekyll-generated websites. If Jekyll isn't your cup of tea, just pick one of the [many other static site generators available](https://jamstack.org/generators/).
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> I used Jekyll to create the <i>Markdown Guide</i>. You can view the source code on <a href="https://github.com/mattcone/markdown-guide">GitHub</a>.
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> Shameless plug! If you want to learn how to build static websites from scratch, check out <a href="https://www.staticguide.org/"><em>The Static Site Guide</em></a>, another book I wrote.
 </div>
 
 If you'd like to use a content management system (CMS) to power your website, take a look at [Ghost](/tools/ghost/). It's a free and open-source blogging platform with a nice Markdown editor. If you're a WordPress user, you'll be happy to know there's [Markdown support](https://wordpress.com/support/wordpress-editor/blocks/markdown-block/) for websites hosted on WordPress.com. Self-hosted WordPress sites can use the [Jetpack plugin](https://jetpack.com/support/jetpack-blocks/markdown/).
@@ -30,7 +30,7 @@ Here are some Markdown document authoring applications I recommend:
 - **iOS / Android:** [iA Writer](/tools/ia-writer/)
 - **Windows:** [ghostwriter](https://kde.github.io/ghostwriter/) or [Markdown Monster](https://markdownmonster.west-wind.com/)
 - **Linux:** [ReText](https://github.com/retext-project/retext) or [ghostwriter](https://kde.github.io/ghostwriter/)
-- **Web:** [Dillinger](/tools/dillinger/) or [StackEdit](/tools/stackedit/)
+- **Web:** [JotBird](/tools/jotbird/), [Dillinger](/tools/dillinger/), or [StackEdit](/tools/stackedit/)
 
 <div class="alert alert-success">
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> <a href="https://ia.net/writer/templates/">iA Writer</a> provides templates for previewing, printing, and exporting Markdown-formatted documents. For example, the "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
@@ -45,7 +45,6 @@ In nearly every way, Markdown is the ideal syntax for taking notes. Sadly, [Ever
 - [Notable](/tools/notable/) is a note-taking application that runs on a variety of platforms.
 - [Bear](/tools/bear/) is an Evernote-like application available for Mac and iOS devices. It doesn't exclusively use Markdown by default, but you can enable Markdown compatibility mode.
 - [Joplin](/tools/joplin/) is a note taking application that respects your privacy. It's available for every platform.
-- [Boostnote](/tools/boostnote/) bills itself as an "open source note-taking app designed for programmers."
 
 If you can't part with Evernote, check out [Marxico](https://marxi.co/), a subscription-based Markdown editor for Evernote, or use [Markdown Here](/tools/markdown-here/) with the Evernote website.
 

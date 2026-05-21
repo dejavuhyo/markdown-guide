@@ -39,18 +39,17 @@ syntax:
   - id: footnotes
     available: y
   - id: heading-ids
-    available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    available: y
   - id: definition-lists
     available: n
   - id: strikethrough
     available: y
   - id: task-lists
-    available: n
+    available: y
   - id: emoji-cp
-    available: u
+    available: y
   - id: emoji-sc
-    available: u
+    available: y
   - id: highlight
     available: n
   - id: subscript
@@ -72,6 +71,6 @@ see-also:
 
 Docusaurus uses the [remarkable](https://github.com/jonschlinkert/remarkable) Markdown processor.
 
-{% include image.html file="/assets/images/tools/Docusaurus.png" alt="Example of Docusaurus website" %}
+{% include image.html file="/assets/images/tools/docusaurus.png" alt="Example of Docusaurus website" %}
 
 {% include tool-syntax-table.html %}

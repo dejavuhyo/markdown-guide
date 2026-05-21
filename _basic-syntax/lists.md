@@ -104,9 +104,15 @@ The rendered output looks like this:
 1. Open the file containing the Linux mascot.
 2. Marvel at its beauty.
 
-    <img srcset="https://mdg.imgix.net/assets/images/tux.png?auto=format&fit=clip&w=100 480w,
-             https://mdg.imgix.net/assets/images/tux.png?auto=format&fit=clip&q=40&w=100 1080w"
-             src="https://mdg.imgix.net/assets/images/tux.png" class="img-fluid" alt="Tux, the Linux mascot" loading="lazy" sizes="100vw">
+    <picture>
+      <source srcset="/assets/images/generated/assets/images/tux-480.webp 480w,
+                      /assets/images/generated/assets/images/tux-1080.webp 1080w"
+              type="image/webp"
+              sizes="100vw">
+      <img srcset="/assets/images/generated/assets/images/tux-480.png 480w,
+                  /assets/images/generated/assets/images/tux.png-1080.png 1080w"
+                  src="/assets/images/generated/assets/images/tux-1080.png" width="20%"  alt="Tux, the Linux mascot" loading="lazy" sizes="100vw">
+    </picture>
 
 3. Close the file.
 

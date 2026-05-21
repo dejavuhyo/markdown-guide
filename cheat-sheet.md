@@ -3,11 +3,12 @@ layout: default
 title: Markdown Cheat Sheet
 description: A quick reference to the Markdown syntax.
 last_modified_at: 2021-12-05
+hide_book_cta: true
 ---
 
 ## Overview
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](/basic-syntax) and [extended syntax](/extended-syntax).
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](/basic-syntax/) and [extended syntax](/extended-syntax/).
 
 ## Basic Syntax
 
@@ -168,3 +169,8 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 ## Downloads
 
 You can <a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">download this cheat sheet as a Markdown file</a> for use in your Markdown application.
+
+{% include jotbird-cta.html
+  page_id="cheat-sheet"
+  lead="Got a Markdown doc you want to send someone? Paste it into JotBird and get a shareable web page in seconds. No account needed to try it."
+%}
